@@ -249,7 +249,6 @@ class ChessGame:
         start_row = int(start[1])
         end_col = ord(end[0]) - ord("a")
         end_row = int(end[1])
-        print((start_row, start_col), (end_row, end_col))
         return (start_row, start_col), (end_row, end_col)
 
     def play(self):
