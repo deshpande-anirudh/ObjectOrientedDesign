@@ -1,11 +1,3 @@
----
-
-### Problem Statement: Elevator Control System Design
-
-You are tasked with designing a software system for managing an **elevator control system** for a multi-story building. The building has multiple elevators, and the software must efficiently control the movement and operation of these elevators. The system must account for the following requirements:
-
----
-
 ### Functional Requirements:
 
 1. **Basic Elevator Operations**:
