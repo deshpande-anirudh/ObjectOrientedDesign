@@ -1,6 +1,26 @@
 from abc import ABC
 from collections import defaultdict
 
+"""
+Vehicle
+    - Car
+    - Semi Truck
+    - Limo
+
+Parking spot
+    - vehicle_to_spots
+    - Park
+    - Free
+
+Parking level
+    - level_to_vehicle
+    - Park vehicle
+    - Free vehicle
+
+Parking lot
+    - Levels
+"""
+
 
 class Vehicle(ABC):
     def __init__(self, licence_plate: str, size: int):
