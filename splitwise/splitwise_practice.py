@@ -75,5 +75,3 @@ print("Initial Balances:")
 print(s)
 s.simplify_debts()
 
-
-
